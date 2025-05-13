@@ -1,58 +1,146 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>天神赤坂自習室 Think Space</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>天神赤坂自習室 – Think Space –</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .gradient-orange { background: linear-gradient(135deg, #FFA69E 0%, #861657 100%); }
-    .gradient-yellow { background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 100%); }
-  </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans leading-relaxed">
+<body class="bg-gradient-to-br from-white via-orange-50 to-white text-gray-800">
 
-  <!-- HEADER -->
-  <header class="bg-white shadow-lg sticky top-0 z-50">
+  <!-- ヘッダー -->
+  <header class="bg-white/80 backdrop-blur sticky top-0 z-50 shadow-md">
     <div class="container mx-auto px-6 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-4">
-        <img src="images/logo.jpeg" alt="Logo" class="h-10 w-10 object-contain" />
-        <span class="text-2xl font-bold text-purple-700">Think Space</span>
-      </div>
-      <nav class="space-x-6 hidden md:flex text-gray-700">
-        <a href="#overview" class="hover:text-purple-700 transition">ご案内</a>
-        <a href="#pricing" class="hover:text-purple-700 transition">料金</a>
-        <a href="#payment" class="hover:text-purple-700 transition">支払い方法</a>
-        <a href="#services" class="hover:text-purple-700 transition">設備</a>
-        <a href="#access" class="hover:text-purple-700 transition">アクセス</a>
-        <a href="#contact" class="hover:text-purple-700 transition">お問い合わせ</a>
+      <h1 class="text-2xl font-extrabold text-orange-500">天神赤坂自習室 – Think Space –</h1>
+      <nav class="space-x-6">
+        <a href="#overview" class="hover:text-orange-600">ご案内</a>
+        <a href="#pricing" class="hover:text-orange-600">料金</a>
+        <a href="#services" class="hover:text-orange-600">設備</a>
+        <a href="#access" class="hover:text-orange-600">アクセス</a>
+        <a href="#contact" class="hover:text-orange-600">お問い合わせ</a>
       </nav>
-      <button class="md:hidden text-gray-700 focus:outline-none">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
     </div>
   </header>
+  <div class="bg-yellow-300 text-center py-2 text-lg font-bold text-orange-700">
+    2025年5月下旬オープン予定！
+  </div>
 
-  <!-- HERO -->
-  <section id="overview" class="gradient-orange text-white py-32">
-    <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-      <div class="space-y-6">
-        <h1 class="text-5xl md:text-6xl font-extrabold tracking-wide">天神赤坂自習室<br>Think Space</h1>
-        <p class="text-xl">天神赤坂の中心、地下鉄空港線「赤坂駅」から徒歩3分。無料Wi-Fi・電源完備の集中スペース。</p>
-        <div class="space-x-4">
-          <a href="#pricing" class="bg-white text-purple-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-xl transition">料金を見る</a>
-          <a href="#contact" class="bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-xl transition">お問い合わせ</a>
-        </div>
+  <!-- ご案内 -->
+  <section id="overview" class="py-24 bg-gradient-to-r from-orange-400 to-orange-200 text-white text-center">
+    <div class="container mx-auto px-6">
+    <div class="mb-8 md:mb-0">
       </div>
-      <div class="flex justify-center">
-        <img src="images/logo.jpeg" alt="Think Space ロゴ" class="w-80 h-80 object-contain" />
+      <p class="text-xl mb-8">
+        天神赤坂の中心、地下鉄空港線「赤坂駅」徒歩3分。<br>
+        無料Wi-Fi・電源完備で効率アップ！
+      </p>
+      <a href="#pricing" class="inline-block bg-white text-orange-500 font-semibold px-8 py-4 rounded-full shadow-lg hover:scale-105 transition">
+        料金を見る
+      </a>
+    </div>
+  </section>
+
+  <!-- 料金プラン -->
+  <section id="pricing" class="py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center text-orange-500 mb-12">料金プラン(オープン記念価格)</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+          <h4 class="text-2xl font-semibold mb-4">スポット利用</h4>
+          <p class="text-5xl font-bold text-orange-500 mb-2">¥1,500</p>
+          <p class="text-gray-500">1日単位でご利用可能</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+          <h4 class="text-2xl font-semibold mb-4">月極：フルタイム</h4>
+          <p class="text-5xl font-bold text-orange-500 mb-2">¥15,000</p>
+          <p class="text-gray-500">平日・土日祝 使い放題</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+          <h4 class="text-2xl font-semibold mb-4">月極：平日夜</h4>
+          <p class="text-5xl font-bold text-orange-500 mb-2">¥6,000</p>
+          <p class="text-gray-500">平日 18:00 – 22:00</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- 以下省略 (Pricing, Payment, Services, Access, Contact) -->
+  <!-- 設備・サービス -->
+<section id="payment" class="bg-white py-16">
+  <div class="container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-8">支払い方法</h3>
+    <ul class="max-w-md mx-auto text-lg list-disc list-inside space-y-2">
+      <li>PayPay：QRコード決済で簡単にお支払い</li>
+      <li>銀行振り込み：お申し込み後に振込先情報をメールでご案内</li>
+    </ul>
+  </div>
+</section>
+  <section id="services" class="py-20 bg-orange-50">
+    <div class="container mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center text-orange-500 mb-12">設備・サービス</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="text-6xl mb-4">📶</div>
+          <h4 class="font-semibold">高速Wi-Fi</h4>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl mb-4">🔌</div>
+          <h4 class="font-semibold">電源完備</h4>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl mb-4">💺</div>
+          <h4 class="font-semibold">個別デスク</h4>
+        </div>
+
+        <div class="text-center">
+
+          <div class="text-6xl mb-4">📷</div>
+
+          <h4 class="font-semibold">防犯カメラ</h4>
+
+        </div>
+
+        <div class="text-center">
+
+          <div class="text-6xl mb-4">🔑</div>
+
+          <h4 class="font-semibold">スマートキー</h4>
+
+        <div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス（ストリートビュー） -->
+  <section id="access" class="py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-4xl font-bold text-center text-orange-500 mb-8">アクセス</h3>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.580008368217!2d130.3908436530038!3d33.59025238717242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35419187895aacaf%3A0xf8095a41a9930c8!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yS5LiB55uu77yR77yR4oiS77yR77yZIOi1pOWdgumWgOesrOS4gOODk-ODq-ODguODs-OCsA!5e0!3m2!1sja!2sjp!4v1747021287815!5m2!1sja!2sjp"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <div class="md:w-1/2 space-y-4">
+          <p class="text-lg"><strong>〒810-0041</strong> 福岡市中央区大名2-11-19 赤坂門第一ビルジング3F</p>
+          <p class="text-lg">地下鉄空港線「赤坂駅」徒歩3分</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <footer id="contact" class="py-20 bg-gradient-to-t from-orange-200 to-white">
+    <div class="container mx-auto px-6 md:flex md:items-center md:justify-between">
+      <h4 class="text-3xl font-bold text-orange-500 mb-6">ご予約・お問い合わせ</h4>
+      <div class="mb-6">
+        <img src="images/IMG_1303.png" alt="LINE QRコード" class="mx-auto w-32 h-32"/>
+        <p class="mt-4"><a href="https://lin.ee/364w1HL" target="_blank" class="text-orange-600 hover:text-orange-700 font-semibold">LINEお友達追加はこちら</a></p>
+      </div>
+      <p class="mb-6 text-lg">LINEで友だち追加して、お問い合わせください。</p>
+      <p class="mt-12 text-sm text-gray-600">&copy; 2025 天神赤坂自習室 – Think Space –</p>
+    </div>
+  </footer>
 
 </body>
 </html>
