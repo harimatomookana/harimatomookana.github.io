@@ -91,28 +91,77 @@
       </div>
     </div>
   </section>
-  <section id="pricing" class="py-20">
-    <div class="container mx-auto px-6">
-      <h3 class="text-4xl font-bold text-center text-orange-500 mb-12">料金プラン(オープン記念価格)</h3>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
-          <h4 class="text-2xl font-semibold mb-4">スポット利用</h4>
-          <p class="text-5xl font-bold text-orange-500 mb-2">¥1,500</p>
-          <p class="text-gray-500">1日単位でご利用可能</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
-          <h4 class="text-2xl font-semibold mb-4">月極：フルタイム</h4>
-          <p class="text-5xl font-bold text-orange-500 mb-2">¥15,000</p>
-          <p class="text-gray-500">平日・土日祝 使い放題</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
-          <h4 class="text-2xl font-semibold mb-4">月極：平日夜</h4>
-          <p class="text-5xl font-bold text-orange-500 mb-2">¥6,000</p>
-          <p class="text-gray-500">平日 18:00 – 22:00</p>
-        </div>
+<section id="pricing" class="py-20">
+  <div class="container mx-auto px-6">
+    <h3 class="text-4xl font-bold text-center text-orange-500 mb-12">料金プラン</h3>
+
+    <!-- 料金カード 1段目 -->
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- フルタイム（おすすめ） -->
+      <div class="relative bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <span class="absolute -top-3 left-6 inline-block text-xs font-bold bg-orange-500 text-white px-3 py-1 rounded-full shadow">おすすめ</span>
+        <h4 class="text-2xl font-semibold mb-2">フルタイム</h4>
+        <p class="text-sm text-gray-500 mb-4">平日 7:00–22:00 / 土日祝 8:00–20:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥15,000</p>
+        <p class="text-sm text-gray-500">税込・月額</p>
+      </div>
+
+      <!-- 平日夜 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-2">平日夜</h4>
+        <p class="text-sm text-gray-500 mb-4">平日 18:00–22:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥6,000</p>
+        <p class="text-sm text-gray-500">税込・月額</p>
+      </div>
+
+      <!-- 土日祝のみ -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-2">土日祝のみ</h4>
+        <p class="text-sm text-gray-500 mb-4">土日祝 8:00–20:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥9,800</p>
+        <p class="text-sm text-gray-500">税込・月額</p>
       </div>
     </div>
-  </section>
+
+    <!-- 料金カード 2段目 -->
+    <div class="grid md:grid-cols-3 gap-8 mt-8">
+      <!-- 平日日中 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-2">平日日中</h4>
+        <p class="text-sm text-gray-500 mb-4">平日 7:00–17:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥7,800</p>
+        <p class="text-sm text-gray-500">税込・月額</p>
+      </div>
+
+      <!-- 平日夜＋土日祝 -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-2">平日夜＋土日祝</h4>
+        <p class="text-sm text-gray-500 mb-4">平日 18:00–22:00 ＋ 土日祝 8:00–20:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥12,800</p>
+        <p class="text-sm text-gray-500">税込・月額</p>
+      </div>
+
+      <!-- ドロップイン -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-2">ドロップイン（1日）</h4>
+        <p class="text-sm text-gray-500 mb-4">営業時間内で1日利用</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥1,500</p>
+        <p class="text-sm text-gray-500">税込・都度</p>
+      </div>
+    </div>
+
+    <!-- 備考 -->
+    <div class="max-w-3xl mx-auto mt-10 bg-white/70 rounded-xl p-5 text-sm text-gray-700">
+      <ul class="list-disc list-inside space-y-1">
+        <li>表示価格はすべて税込みです。</li>
+        <li>営業時間：平日 7:00–22:00 / 土日祝 8:00–20:00</li>
+        <li>お支払い方法：PayPay / 銀行振込</li>
+        <li>混雑状況によりお席をご案内できない場合があります。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
   <!-- 設備・サービス -->
 <section id="payment" class="bg-white py-16">
