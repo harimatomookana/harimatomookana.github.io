@@ -1,117 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>天神赤坂自習室 – Think Space –</title>
-  <meta name="description" content="福岡・天神赤坂の自習室 Think Space。平日7:00–22:00／土日祝8:00–20:00。高速Wi-Fi・電源・個別デスク、スマートキー・防犯カメラ完備。月途中の入会は日割り清算可。">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <meta name="description" content="福岡・天神赤坂の自習室 Think Space。平日7:00–22:00／土日祝8:00–20:00。Wi-Fi・電源・個別デスク、スマートキー・防犯カメラ完備。日割り清算OK。">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-br from-white via-slate-50 to-white text-slate-800">
+<body class="bg-slate-50 text-slate-800 selection:bg-indigo-200/60">
 
   <!-- Header -->
-  <header class="bg-white/90 backdrop-blur sticky top-0 z-50 border-b border-slate-200/70">
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="text-xl md:text-2xl font-extrabold tracking-tight text-indigo-700">天神赤坂自習室 – Think Space –</a>
+      <a class="text-xl md:text-2xl font-extrabold tracking-tight text-indigo-700" href="#">天神赤坂自習室 – Think Space –</a>
       <nav class="hidden md:flex items-center gap-6 text-sm">
         <a href="#overview" class="hover:text-indigo-600">ご案内</a>
         <a href="#pricing" class="hover:text-indigo-600">料金</a>
         <a href="#services" class="hover:text-indigo-600">設備</a>
         <a href="#introduction" class="hover:text-indigo-600">自習室紹介</a>
+        <a href="#flow" class="hover:text-indigo-600">利用の流れ</a>
+        <a href="#faq" class="hover:text-indigo-600">よくある質問</a>
         <a href="#access" class="hover:text-indigo-600">アクセス</a>
         <a href="#contact" class="hover:text-indigo-600">お問い合わせ</a>
       </nav>
     </div>
-    <div class="bg-amber-100/90 text-amber-900 text-center py-2 text-base md:text-lg font-semibold">
+    <div class="bg-amber-100 text-amber-900 text-center py-2 font-semibold">
       2025年5月 OPEN!!
     </div>
   </header>
 
   <!-- Hero -->
-  <section id="overview" class="relative py-20 md:py-24 bg-gradient-to-r from-indigo-700 via-indigo-600 to-violet-600 text-white">
-    <div class="absolute inset-0 opacity-10 pointer-events-none" aria-hidden="true"
-         style="background: radial-gradient(800px 300px at 20% 20%, #fff, transparent),
-                 radial-gradient(600px 250px at 80% 70%, #fff, transparent);"></div>
-
-    <div class="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <!-- Copy -->
+  <section id="overview" class="relative">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-white to-slate-100"></div>
+    <div class="max-w-7xl mx-auto px-6 py-16 md:py-20 grid md:grid-cols-2 gap-12 items-center">
       <div>
         <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">
-          天神3分、集中が続く自習室。<br class="hidden md:block"/>朝7:00–22:00／土日祝 8:00–20:00
+          天神3分、集中が続く自習室。<br class="hidden md:block" />朝7:00–22:00／土日祝 8:00–20:00
         </h1>
-        <p class="mt-4 text-lg md:text-xl text-indigo-100">
-          地下鉄空港線「赤坂駅」徒歩3分。Wi-Fi・電源・個別デスク完備で、学習も仕事もスイッチON。
+        <p class="mt-4 text-lg md:text-xl text-slate-600">
+          地下鉄空港線「赤坂駅」徒歩3分。静かな環境と必要十分な設備で、勉強も仕事もスイッチON。
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <span class="inline-flex items-center rounded-full bg-white/15 px-4 py-2 text-sm ring-1 ring-white/30">平日 7:00–22:00</span>
-          <span class="inline-flex items-center rounded-full bg-white/15 px-4 py-2 text-sm ring-1 ring-white/30">土日祝 8:00–20:00</span>
-          <span class="inline-flex items-center rounded-full bg-white/15 px-4 py-2 text-sm ring-1 ring-white/30">日割り清算OK</span>
+          <span class="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm ring-1 ring-slate-200">平日 7:00–22:00</span>
+          <span class="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm ring-1 ring-slate-200">土日祝 8:00–20:00</span>
+          <span class="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm ring-1 ring-slate-200">日割り清算OK</span>
         </div>
         <div class="mt-8 flex flex-wrap gap-4">
-          <a href="#pricing" class="inline-block bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl shadow hover:shadow-lg hover:-translate-y-0.5 transition">料金を見る</a>
-          <a href="#contact" class="inline-block bg-indigo-500/20 text-white font-semibold px-6 py-3 rounded-xl ring-1 ring-white/40 hover:bg-indigo-500/30 transition">見学・お問い合わせ</a>
+          <a href="#pricing" class="inline-block bg-indigo-600 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-indigo-500 transition">料金を見る</a>
+          <a href="#contact" class="inline-block bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl ring-1 ring-indigo-200 hover:bg-indigo-50 transition">見学・お問い合わせ</a>
         </div>
       </div>
-      <!-- Visual -->
       <div class="text-center">
-        <img src="images/logo.jpeg" alt="Think Space ロゴ" class="mx-auto w-56 md:w-80 lg:w-96 h-auto object-contain drop-shadow" />
+        <img src="images/logo.jpeg" alt="Think Space ロゴ" class="mx-auto w-56 md:w-80 lg:w-96 h-auto object-contain" />
       </div>
     </div>
   </section>
 
   <!-- Services -->
-  <section id="services" class="py-20 bg-white">
+  <section id="services" class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-12 tracking-tight">設備・サービス</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-8">
-        <div class="bg-white rounded-2xl shadow-sm p-6 text-center ring-1 ring-slate-200">
-          <div class="text-5xl mb-3">📶</div><h3 class="font-semibold">高速Wi-Fi</h3>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12">設備・サービス</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="bg-white rounded-2xl ring-1 ring-slate-200 p-6 text-center shadow-sm">
+          <div class="text-5xl mb-2">📶</div><p class="font-semibold">高速Wi-Fi</p>
         </div>
-        <div class="bg-white rounded-2xl shadow-sm p-6 text-center ring-1 ring-slate-200">
-          <div class="text-5xl mb-3">🔌</div><h3 class="font-semibold">電源完備</h3>
+        <div class="bg-white rounded-2xl ring-1 ring-slate-200 p-6 text-center shadow-sm">
+          <div class="text-5xl mb-2">🔌</div><p class="font-semibold">電源完備</p>
         </div>
-        <div class="bg-white rounded-2xl shadow-sm p-6 text-center ring-1 ring-slate-200">
-          <div class="text-5xl mb-3">💺</div><h3 class="font-semibold">個別デスク</h3>
+        <div class="bg-white rounded-2xl ring-1 ring-slate-200 p-6 text-center shadow-sm">
+          <div class="text-5xl mb-2">💺</div><p class="font-semibold">個別デスク</p>
         </div>
-        <div class="bg-white rounded-2xl shadow-sm p-6 text-center ring-1 ring-slate-200">
-          <div class="text-5xl mb-3">🔑</div><h3 class="font-semibold">スマートキー</h3>
+        <div class="bg-white rounded-2xl ring-1 ring-slate-200 p-6 text-center shadow-sm">
+          <div class="text-5xl mb-2">🔑</div><p class="font-semibold">スマートキー</p>
         </div>
-        <div class="bg-white rounded-2xl shadow-sm p-6 text-center ring-1 ring-slate-200">
-          <div class="text-5xl mb-3">📷</div><h3 class="font-semibold">防犯カメラ</h3>
+        <div class="bg-white rounded-2xl ring-1 ring-slate-200 p-6 text-center shadow-sm">
+          <div class="text-5xl mb-2">📷</div><p class="font-semibold">防犯カメラ</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Pricing -->
-  <section id="pricing" class="relative py-24 bg-gradient-to-b from-slate-50 to-white">
+  <section id="pricing" class="py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-12 tracking-tight">料金プラン</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12">料金プラン</h2>
 
-      <!-- Row 1 -->
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="relative bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition ring-1 ring-indigo-100">
-          <span class="absolute -top-3 left-6 inline-block text-xs font-bold bg-indigo-600 text-white px-3 py-1 rounded-full shadow">人気 No.1</span>
+        <div class="relative bg-white rounded-2xl shadow-lg p-6 ring-1 ring-indigo-100">
+          <span class="absolute -top-3 left-6 text-xs font-bold bg-indigo-600 text-white px-3 py-1 rounded-full">人気 No.1</span>
           <h3 class="text-2xl font-semibold mb-1">フルタイム</h3>
           <p class="text-sm text-slate-500 mb-4">平日 7:00–22:00 / 土日祝 8:00–20:00</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥15,000</p>
           <p class="text-xs text-slate-500 mb-4">税込・月額</p>
           <ul class="text-sm text-slate-600 space-y-1">
-            <li>高速Wi-Fi・電源・個別デスク</li>
-            <li>スマートキー・防犯カメラ</li>
+            <li>Wi-Fi・電源・個別デスク</li><li>スマートキー・防犯カメラ</li>
           </ul>
         </div>
 
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">平日夜</h3>
           <p class="text-sm text-slate-500 mb-4">平日 18:00–22:00</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥6,000</p>
           <p class="text-xs text-slate-500 mb-4">税込・月額</p>
-          <ul class="text-sm text-slate-600 space-y-1"><li>放課後・お仕事帰りに</li></ul>
+          <ul class="text-sm text-slate-600 space-y-1"><li>お仕事・学校帰りに</li></ul>
         </div>
 
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">土日祝のみ</h3>
           <p class="text-sm text-slate-500 mb-4">土日祝 8:00–20:00</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥9,800</p>
@@ -120,25 +115,22 @@
         </div>
       </div>
 
-      <!-- Row 2 -->
       <div class="grid md:grid-cols-3 gap-8 mt-8">
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">平日日中</h3>
           <p class="text-sm text-slate-500 mb-4">平日 7:00–18:00</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥7,800</p>
           <p class="text-xs text-slate-500 mb-4">税込・月額</p>
-          <ul class="text-sm text-slate-600 space-y-1"><li>朝活〜夕方の利用に</li></ul>
         </div>
 
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">平日夜＋土日祝</h3>
           <p class="text-sm text-slate-500 mb-4">平日 18:00–22:00 ＋ 土日祝 8:00–20:00</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥12,800</p>
           <p class="text-xs text-slate-500 mb-4">税込・月額</p>
-          <ul class="text-sm text-slate-600 space-y-1"><li>平日も週末もバランスよく</li></ul>
         </div>
 
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">ドロップイン（1日）</h3>
           <p class="text-sm text-slate-500 mb-4">営業時間内で1日利用</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥1,500</p>
@@ -146,25 +138,21 @@
         </div>
       </div>
 
-      <!-- Row 3: Ticket -->
       <div class="grid md:grid-cols-3 gap-8 mt-8">
-        <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
           <h3 class="text-2xl font-semibold mb-1">回数券（1日×5枚）</h3>
           <p class="text-sm text-slate-500 mb-4">ドロップインをお得に</p>
           <p class="text-5xl font-extrabold text-indigo-700 mb-1">¥6,500</p>
-          <p class="text-xs text-slate-500 mb-4">1回あたり ¥1,300 / 税込</p>
-          <ul class="text-sm text-slate-600 space-y-1"><li>まずは気軽に試したい方に</li></ul>
+          <p class="text-xs text-slate-500">1回あたり ¥1,300 / 税込</p>
         </div>
         <div class="hidden md:block"></div>
         <div class="hidden md:block"></div>
       </div>
 
-      <!-- Notes -->
-      <div class="max-w-3xl mx-auto mt-12 bg-white/90 backdrop-blur rounded-xl p-5 text-sm text-slate-700 shadow ring-1 ring-slate-200">
+      <div class="max-w-3xl mx-auto mt-10 bg-white/90 rounded-xl p-5 text-sm text-slate-700 ring-1 ring-slate-200">
         <ul class="list-disc list-inside space-y-1">
-          <li>表示価格はすべて税込みです。</li>
+          <li>価格は税込。月途中の入会は<strong>日割り清算が可能</strong>です。</li>
           <li>営業時間：平日 7:00–22:00 / 土日祝 8:00–20:00</li>
-          <li>月途中の入会は<strong>日割り清算が可能</strong>です。</li>
           <li>お支払い方法：PayPay / 銀行振込</li>
           <li>混雑状況によりお席をご案内できない場合があります。</li>
         </ul>
@@ -175,33 +163,33 @@
   <!-- Gallery -->
   <section id="introduction" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-12 tracking-tight">自習室紹介</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12">自習室紹介</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/B05125.jpg" alt="自習室が入っているビル" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">自習室が入っているビルです</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/ZDpKxhV33cSgnOZcp2HPf1JEvDmklg8nTEAcVclY.jpg" alt="正面入り口" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">正面入り口です</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/FyhIZp4u03uJzKPQqaakLXux3eMQ2x2u4Q07ZTOi.jpg" alt="エントランスホール" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">エントランスホールです</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/pNCDu4TUqDIdt2pAJYfoqTQ35hTqieYiV96uLOGt.jpg" alt="エレベーター3階" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">エレベーターを上がって3階です</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/IMG_1554.jpeg" alt="室内12席・電源完備" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">12席、電源完備です</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/IMG_1555.jpeg" alt="室内イメージ" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">室内イメージ</figcaption>
         </figure>
-        <figure class="bg-white rounded-xl shadow-sm p-3 ring-1 ring-slate-200">
+        <figure class="bg-white rounded-xl ring-1 ring-slate-200 p-3 shadow-sm">
           <img src="images/IMG_1556.jpeg" alt="室内イメージ" class="w-full h-64 object-contain mx-auto rounded" />
           <figcaption class="mt-2 text-center text-sm text-slate-600">室内イメージ</figcaption>
         </figure>
@@ -209,10 +197,56 @@
     </div>
   </section>
 
+  <!-- Flow -->
+  <section id="flow" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12">利用の流れ</h2>
+      <ol class="grid md:grid-cols-3 gap-6 text-center">
+        <li class="bg-white rounded-2xl p-6 ring-1 ring-slate-200 shadow-sm">
+          <p class="text-2xl mb-2">1</p>
+          <p class="font-semibold">LINE 友だち追加</p>
+          <p class="text-sm text-slate-600 mt-1">QRまたはリンクから追加</p>
+        </li>
+        <li class="bg-white rounded-2xl p-6 ring-1 ring-slate-200 shadow-sm">
+          <p class="text-2xl mb-2">2</p>
+          <p class="font-semibold">見学・入会手続き</p>
+          <p class="text-sm text-slate-600 mt-1">日割り清算OK</p>
+        </li>
+        <li class="bg-white rounded-2xl p-6 ring-1 ring-slate-200 shadow-sm">
+          <p class="text-2xl mb-2">3</p>
+          <p class="font-semibold">スマートキーで入室</p>
+          <p class="text-sm text-slate-600 mt-1">すぐにご利用開始</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10">よくある質問</h2>
+
+      <details class="group open:bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
+        <summary class="font-semibold cursor-pointer">Wi-Fiは使えますか？</summary>
+        <p class="mt-2 text-slate-700">無料でご利用いただけます（回線状況により速度は変動します）。</p>
+      </details>
+
+      <details class="group open:bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
+        <summary class="font-semibold cursor-pointer">座席は固定ですか？</summary>
+        <p class="mt-2 text-slate-700">自由席です。混雑時は譲り合ってご利用ください。</p>
+      </details>
+
+      <details class="group open:bg-slate-50 border border-slate-200 rounded-xl p-5">
+        <summary class="font-semibold cursor-pointer">支払い方法は？</summary>
+        <p class="mt-2 text-slate-700">PayPay または銀行振込に対応しています。</p>
+      </details>
+    </div>
+  </section>
+
   <!-- Access -->
   <section id="access" class="py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-10 tracking-tight">アクセス</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10">アクセス</h2>
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.580008368217!2d130.3908436530038!3d33.59025238717242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35419187895aacaf%3A0xf8095a41a9930c8!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yS5LiB55uu77yR77yR4oiS77yR77yZIOi1pOWdgumWgOesrOS4gOODk-ODq-ODguODs-OCsA!5e0!3m2!1sja!2sjp!4v1747021287815!5m2!1sja!2sjp"
@@ -227,17 +261,17 @@
     </div>
   </section>
 
-  <!-- Contact (LINE) -->
+  <!-- Contact -->
   <section id="contact" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-10 tracking-tight">お問い合わせ</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10">お問い合わせ</h2>
       <div class="grid md:grid-cols-2 gap-8 items-center">
         <div class="text-center">
           <img src="images/IMG_1303.png" alt="LINE 友だち追加 QR" class="mx-auto w-56 md:w-72 h-auto object-contain rounded-xl shadow" />
           <a href="https://lin.ee/364w1HL" target="_blank" rel="noopener" class="inline-block mt-4 text-indigo-700 font-semibold underline">LINE 友だち追加はこちら</a>
         </div>
         <div class="text-slate-700 space-y-3">
-          <p>見学のご予約・ご質問は LINE からどうぞ。営業時間内はスタッフが対応します。</p>
+          <p>見学のご予約・ご質問は LINE からどうぞ。</p>
           <ul class="list-disc list-inside text-sm">
             <li>営業時間：平日 7:00–22:00 / 土日祝 8:00–20:00</li>
             <li>月途中の入会は<strong>日割り清算が可能</strong>です。</li>
