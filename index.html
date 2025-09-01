@@ -91,67 +91,104 @@
       </div>
     </div>
   </section>
-<section id="pricing" class="py-20">
-  <div class="container mx-auto px-6">
-    <h3 class="text-4xl font-bold text-center text-orange-500 mb-12">料金プラン</h3>
+<section id="pricing" class="relative py-24 bg-gradient-to-b from-orange-50 to-white">
+  <div class="container mx-auto px-6 max-w-6xl">
+    <div class="text-center mb-12">
+      <h3 class="text-4xl font-extrabold text-orange-500 tracking-tight">料金プラン</h3>
+      <p class="text-sm text-gray-500 mt-2">競合より“少しだけお得”な価格で、続けやすさを重視しています。</p>
+    </div>
 
     <!-- 料金カード 1段目 -->
     <div class="grid md:grid-cols-3 gap-8">
       <!-- フルタイム（おすすめ） -->
-      <div class="relative bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <span class="absolute -top-3 left-6 inline-block text-xs font-bold bg-orange-500 text-white px-3 py-1 rounded-full shadow">おすすめ</span>
-        <h4 class="text-2xl font-semibold mb-2">フルタイム</h4>
+      <div class="relative bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition ring-1 ring-orange-100">
+        <span class="absolute -top-3 left-6 inline-block text-xs font-bold bg-orange-500 text-white px-3 py-1 rounded-full shadow">人気 No.1</span>
+        <h4 class="text-2xl font-semibold mb-1">フルタイム</h4>
         <p class="text-sm text-gray-500 mb-4">平日 7:00–22:00 / 土日祝 8:00–20:00</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥15,000</p>
-        <p class="text-sm text-gray-500">税込・月額</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥15,000</p>
+        <p class="text-xs text-gray-500 mb-4">税込・月額</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>高速Wi-Fi・電源・個別デスク</li>
+          <li>スマートキー・防犯カメラ</li>
+        </ul>
       </div>
 
       <!-- 平日夜 -->
       <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <h4 class="text-2xl font-semibold mb-2">平日夜</h4>
+        <h4 class="text-2xl font-semibold mb-1">平日夜</h4>
         <p class="text-sm text-gray-500 mb-4">平日 18:00–22:00</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥6,000</p>
-        <p class="text-sm text-gray-500">税込・月額</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥6,000</p>
+        <p class="text-xs text-gray-500 mb-4">税込・月額</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>放課後・お仕事帰りに</li>
+        </ul>
       </div>
 
       <!-- 土日祝のみ -->
       <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <h4 class="text-2xl font-semibold mb-2">土日祝のみ</h4>
+        <h4 class="text-2xl font-semibold mb-1">土日祝のみ</h4>
         <p class="text-sm text-gray-500 mb-4">土日祝 8:00–20:00</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥9,800</p>
-        <p class="text-sm text-gray-500">税込・月額</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥9,800</p>
+        <p class="text-xs text-gray-500 mb-4">税込・月額</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>週末集中派に</li>
+        </ul>
       </div>
     </div>
 
     <!-- 料金カード 2段目 -->
     <div class="grid md:grid-cols-3 gap-8 mt-8">
-      <!-- 平日日中 -->
+      <!-- 平日日中（時間変更 7:00–18:00） -->
       <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <h4 class="text-2xl font-semibold mb-2">平日日中</h4>
-        <p class="text-sm text-gray-500 mb-4">平日 7:00–17:00</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥7,800</p>
-        <p class="text-sm text-gray-500">税込・月額</p>
+        <h4 class="text-2xl font-semibold mb-1">平日日中</h4>
+        <p class="text-sm text-gray-500 mb-4">平日 7:00–18:00</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥7,800</p>
+        <p class="text-xs text-gray-500 mb-4">税込・月額</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>朝活〜夕方の利用に</li>
+        </ul>
       </div>
 
       <!-- 平日夜＋土日祝 -->
       <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <h4 class="text-2xl font-semibold mb-2">平日夜＋土日祝</h4>
+        <h4 class="text-2xl font-semibold mb-1">平日夜＋土日祝</h4>
         <p class="text-sm text-gray-500 mb-4">平日 18:00–22:00 ＋ 土日祝 8:00–20:00</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥12,800</p>
-        <p class="text-sm text-gray-500">税込・月額</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥12,800</p>
+        <p class="text-xs text-gray-500 mb-4">税込・月額</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>平日も週末もバランスよく</li>
+        </ul>
       </div>
 
-      <!-- ドロップイン -->
+      <!-- ドロップイン（1日） -->
       <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
-        <h4 class="text-2xl font-semibold mb-2">ドロップイン（1日）</h4>
+        <h4 class="text-2xl font-semibold mb-1">ドロップイン（1日）</h4>
         <p class="text-sm text-gray-500 mb-4">営業時間内で1日利用</p>
-        <p class="text-5xl font-extrabold text-orange-500 mb-2">¥1,500</p>
-        <p class="text-sm text-gray-500">税込・都度</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥1,500</p>
+        <p class="text-xs text-gray-500">税込・都度</p>
       </div>
     </div>
 
+    <!-- 料金カード 3段目（回数券 追加） -->
+    <div class="grid md:grid-cols-3 gap-8 mt-8">
+      <!-- 回数券（5回） -->
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h4 class="text-2xl font-semibold mb-1">回数券（1日×5枚）</h4>
+        <p class="text-sm text-gray-500 mb-4">ドロップインをお得に</p>
+        <p class="text-5xl font-extrabold text-orange-500 mb-1">¥6,500</p>
+        <p class="text-xs text-gray-500 mb-4">1回あたり ¥1,300 / 税込</p>
+        <ul class="text-sm text-gray-600 space-y-1">
+          <li>シンプルにお試し向け</li>
+        </ul>
+      </div>
+
+      <!-- 空きスペースのダミー（均等レイアウト用） -->
+      <div class="hidden md:block"></div>
+      <div class="hidden md:block"></div>
+    </div>
+
     <!-- 備考 -->
-    <div class="max-w-3xl mx-auto mt-10 bg-white/70 rounded-xl p-5 text-sm text-gray-700">
+    <div class="max-w-3xl mx-auto mt-12 bg-white/80 backdrop-blur rounded-xl p-5 text-sm text-gray-700 shadow">
       <ul class="list-disc list-inside space-y-1">
         <li>表示価格はすべて税込みです。</li>
         <li>営業時間：平日 7:00–22:00 / 土日祝 8:00–20:00</li>
@@ -161,6 +198,7 @@
     </div>
   </div>
 </section>
+
 
 
   <!-- 設備・サービス -->
